@@ -1,4 +1,0 @@
-FROM nginx:1.21.6
-RUN apt-get install -y && apt install nginx -y
-COPY ./html/* /usr/share/nginx/html/
-Expose 80
